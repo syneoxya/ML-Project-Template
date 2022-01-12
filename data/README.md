@@ -1,4 +1,4 @@
-## Data Folder
+# Data Folder
 
 This folder contains all your datasets. The following files will be stored here 
 
