@@ -1,1 +1,1 @@
-# ML-Project-Template
+# Handwritten Digit Classification
