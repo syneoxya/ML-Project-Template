@@ -5,11 +5,26 @@ This should be a brief description of the domain of your dataset (e.g. if it is 
 The dataset used is the [Name of the Dataset](Download link) from (source of download e.g Kaggle). If the task is a classification task, then you must specify the number of classes and give a 1 line description of each class as follows(example of Iris Dataset). 
 
 The 3 class labels are:
+<br>
 
 **1. Iris Setosa:** Given iris flower belongs to the Setosa species
+<br>
 **2. Iris Virginica:** Given iris flower belongs to the Virginica species
+<br>
 **3. Iris Versicolor:** Given iris flower belongs to the Versicolor species
 
+If the task is a regression task, then explain the target variable and give brief statistics.(e.g. Housing Prices)
+
+**Target Variable: SalePrice**
+<br>
+<br>
+Sale Price refers to the selling price of the house.
+<br>
+**Mean Selling Price:** 121,000$
+<br>
+**Max Selling Price:** 1,000,000$
+<br>
+**Min Selling Price:** 45,000$
 
 
 ## Model(s) Used
