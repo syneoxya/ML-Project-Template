@@ -1,43 +1,35 @@
 # Problem Statement 
-This should be a brief description of the domain of your dataset (e.g. if it is the Titanic Dataset then write about the ship, the incident that happened, what you're trying to do with the data).
+Classification of penguins living on different islands
 ## Dataset
 
-The dataset used is the [Name of the Dataset](Download link) from (source of download e.g Kaggle). If the task is a classification task, then you must specify the number of classes and give a 1 line description of each class as follows(example of Iris Dataset). 
+The dataset used is the Palmer Penguin dataset(https://www.kaggle.com/parulpandey/palmer-archipelago-antarctica-penguin-data) from (Kaggle). 
 
-The 3 class labels are:
+The 7 class labels are:
 <br>
 
-**1. Iris Setosa:** Given iris flower belongs to the Setosa species
+**1. Species: penguin species (Chinstrap, Adélie, or Gentoo)
 <br>
-**2. Iris Virginica:** Given iris flower belongs to the Virginica species
+**2. Island: island name (Dream, Torgersen, or Biscoe) in the Palmer Archipelago (Antarctica)
 <br>
-**3. Iris Versicolor:** Given iris flower belongs to the Versicolor species
-
-If the task is a regression task, then explain the target variable and give brief statistics.(e.g. Housing Prices)
-
-**Target Variable: SalePrice**
+**3. culmen_length_mm: culmen length (mm)
 <br>
+**4. culmen_depth_mm: culmen depth (mm)
 <br>
-Sale Price refers to the selling price of the house.
+**5. flipper_length_mm: flipper length (mm)
 <br>
-**Mean Selling Price:** 121,000$
+**6. body_mass_g: body mass (g)
 <br>
-**Max Selling Price:** 1,000,000$
+**7.Sex: penguin sex
 <br>
-**Min Selling Price:** 45,000$
-
 
 ## Model(s) Used
 
-This needs to be a description of the model used and a brief overview of how it works in theory (e.g taken of a CNN Model): 
+**K-Nearest-Neighbour**
 
-The network architecture used was a basic CNN model, with Max Pooling and ReLU Activation functions. Input images are resized to an optimal size and then fed into the **Convolutional layer**. These images are converted to their pixel values, which can be imagined as a three-dimensional matrix for the purpose of visualization. The **Convolutional layer** has a kernel. This kernel is generally a small matrix of specified kernel size mxnx3 (3 for RGB images). 
-<br>
+The k-nearest neighbors (KNN) algorithm is a simple, easy-to-implement supervised machine learning algorithm that can be used to solve both classification and regression problems.The KNN algorithm assumes that similar things exist in close proximity.
 
-**Rectified Linear Unit (ReLU)** is the activation layer used in CNNs.The activation function is applied to increase non-linearity in the CNN. Images are made of different objects that are not linear to each other.
-
-
-**Max Pooling:** A limitation of the feature map output of Convolutional Layers is that they record the precise position of features in the input. This means that small movements in the position of the feature in the input image will result in a different feature map. This can happen with re-cropping, rotation, shifting, and other minor changes to the input image. A common approach to addressing this problem from signal processing is called down sampling. This is where a lower resolution version of an input signal is created that still contains the large or important structural elements, without the fine detail that may not be as useful to the task.
+**Logistic Regression**
+Logistic Regression is a Machine Learning classification algorithm that is used to predict the probability of a categorical dependent variable. In logistic regression, the dependent variable is a binary variable that contains data coded as 1 (yes, success, etc.) or 0 (no, failure, etc.)
 
 ## Future Work
-Good ideas or strategies that you were not able to implement which you think can help  improve performance.
+Implementing different models to achieve a higher accuracy score
