@@ -7,19 +7,19 @@ The dataset used is the Palmer Penguin dataset(https://www.kaggle.com/parulpande
 The 7 class labels are:
 <br>
 
-1. Species: penguin species (Chinstrap, Adélie, or Gentoo)
+**1**. Species: penguin species (Chinstrap, Adélie, or Gentoo)
 <br>
-2. Island: island name (Dream, Torgersen, or Biscoe) in the Palmer Archipelago (Antarctica)
+**2**. Island: island name (Dream, Torgersen, or Biscoe) in the Palmer Archipelago (Antarctica)
 <br>
-3. culmen_length_mm: culmen length (mm)
+**3**. culmen_length_mm: culmen length (mm)
 <br>
-4. culmen_depth_mm: culmen depth (mm)
+**4**. culmen_depth_mm: culmen depth (mm)
 <br>
-5. flipper_length_mm: flipper length (mm)
+**5**. flipper_length_mm: flipper length (mm)
 <br>
-6. body_mass_g: body mass (g)
+**6**. body_mass_g: body mass (g)
 <br>
-7.Sex: penguin sex
+**7**.Sex: penguin sex
 <br>
 
 ## Model(s) Used
